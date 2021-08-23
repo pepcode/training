@@ -1,7 +1,7 @@
-package pep.training.functional._interface;
+package pep.training.functionalinterface;
 
-import static pep.training.functional._interface.Gender.FEMALE;
-import static pep.training.functional._interface.Gender.MALE;
+import static pep.training.functionalinterface.Gender.FEMALE;
+import static pep.training.functionalinterface.Gender.MALE;
 
 import java.util.ArrayList;
 import java.util.List;

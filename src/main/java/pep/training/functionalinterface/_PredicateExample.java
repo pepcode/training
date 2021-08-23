@@ -1,4 +1,4 @@
-package pep.training.functional._interface;
+package pep.training.functionalinterface;
 
 import java.util.function.Predicate;
 
