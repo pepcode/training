@@ -1,3 +1,4 @@
+package pep.training.imperative;
 import java.util.*;
 
 class Entry {
@@ -24,7 +25,7 @@ class MyDirectory extends Entry {
 
     public MyDirectory(String name) {
         this.setName(name);
-        this.contents = new HashMap<>();
+        this.contents = new HashMap<String,Entry>();
         this.isFile = false;
     }
 
@@ -65,7 +66,7 @@ public class MyFileSystem {
         Iterator itr = dir.getContents().entrySet().iterator();
         while(itr.hasNext()) {
             Map.Entry<String, Entry> e1 = (Map.Entry)itr.next();
-            Entry e =  (Entry)e1.getValue();
+            Entry e =  e1.getValue();
             if(e.isFile){
                 MyFile f = (MyFile) e;
                 System.out.println( dirName+"/"+e.getName() + "  :: " + f.getContent());
@@ -195,7 +196,7 @@ public class MyFileSystem {
     private MyDirectory getDirFromPath( MyDirectory dir, String path) throws Exception {
         String[] dirs = path.split("/");
         if( dirs[0] != "" && dir.getContents().containsKey(dirs[0])) {
-            Entry e = (Entry)dir.getContents().get(dirs[0]);
+            Entry e = dir.getContents().get(dirs[0]);
             if(e.isFile) {
                 throw new Exception("Not a directory its a file");
             } else {
