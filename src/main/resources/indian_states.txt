@@ -1,0 +1,36 @@
+Andhra Pradesh	S	IN-AP	AP	Southern	Amaravati	Telugu
+Arunachal Pradesh	S	IN-AR	AR	North-Eastern	Itanagar	English
+Assam	S	IN-AS	AS	North-Eastern	Dispur	Assamese
+Bihar	S	IN-BR	BR	Eastern	Patna	Hindi	Urdu
+Chhattisgarh	S	IN-CT	CG	Central	Nava Raipur	Hindi
+Goa	S	IN-GA	GA	Western	Panaji	Konkani
+Gujarat	S	IN-GJ	GJ	Western	Gandhinagar	Gujarati
+Haryana	S	IN-HR	HR	Northern	Chandigarh	Hindi
+Himachal Pradesh	S	IN-HP	HP	Northern	Shimla/Dharamshala	Hindi
+Jharkhand	S	IN-JH	JH	Eastern	Ranchi	Hindi
+Karnataka	S	IN-KA	KA	Southern	Bengaluru	Kannada
+Kerala	S	IN-KL	KL	Southern	Thiruvananthapuram	Malayalam
+Madhya Pradesh	S	IN-MP	MP	Central	Bhopal	Hindi
+Maharashtra	S	IN-MH	MH	Western	Mumbai/Nagpur	Marathi
+Manipur	S	IN-MN	MN	North-Eastern	Imphal	English
+Meghalaya	S	IN-ML	ML	North-Eastern	Shillong	English
+Mizoram	S	IN-MZ	MZ	North-Eastern	Aizawl	English
+Nagaland	S	IN-NL	NL	North-Eastern	Kohima	English
+Odisha	S	IN-OR	OD	Eastern	Bhubaneswar	Odia
+Punjab	S	IN-PB	PB	Northern	Chandigarh	Punjabi
+Rajasthan	S	IN-RJ	RJ	Northern	Jaipur	Hindi
+Sikkim	S	IN-SK	SK	North-Eastern	Gangtok	English
+Tamil Nadu	S	IN-TN	TN	Southern	Chennai	Tamil
+Telangana	S	IN-TG	TS	Southern	Hyderabad	Telugu
+Tripura	S	IN-TR	TR	North-Eastern	Agartala	Bengali
+Uttar Pradesh	S	IN-UP	UP	Central	Lucknow	Hindi
+Uttarakhand	S	IN-UT	UK	Central	Gairsain/Dehradun	Hindi
+West Bengal	S	IN-WB	WB	Eastern	Kolkata	Bengali
+Andaman and Nicobar Islands	UT	IN-AN	AN	Southern	Port Blair	Hindi
+Chandigarh	UT	IN-CH	CH	Northern	Chandigarh	English	—
+Dadra and Nagar Haveli and Daman and Diu	UT	IN-DH	DD	Western	Daman	Gujarati
+Delhi	UT	IN-DL	DL	Northern	New Delhi	Hindi
+Jammu and Kashmir	UT	IN-JK	JK	Northern	Srinagar/Jammu	Kashmiri
+Ladakh	UT	IN-LA	LA	Northern	Leh/Kargil	Hindi
+Lakshadweep	UT	IN-LD	LD	Southern	Kavaratti	Malayalam
+Puducherry	UT	IN-PY	PY	Southern	Puducherry	Tamil
