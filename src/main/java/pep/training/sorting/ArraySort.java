@@ -11,31 +11,25 @@ import java.util.ArrayList;
 public class ArraySort {
 
     public static void main(String args[]){
-         arrSort();
-        //arrArraySort();
-        // stringSortWithComparator();
-        //stringSortCollectionSort();
+        arrSort();
+        arrArraySort();
+        stringSortWithComparator();
+        stringSortCollectionSort();
     }
 
     private static void  arrSort() {
 
         int[] a = { 20,3,5,232,2,5,-1};
         int temp =0;
-
         for(int i=0; i<a.length; i++) {
-
             for (int j=i+1; j<a.length; j++) {
-                System.out.println(Arrays.toString(a));
                 if(a[i] > a[j]) {
                     temp = a[i];
                     a[i] = a[j];
                     a[j] = temp;
                 }
-                
             }
-
         }
-
         System.out.println(Arrays.toString(a));
     }
 
@@ -45,8 +39,8 @@ public class ArraySort {
         System.out.println(Arrays.toString(a));
 
         //reverse order of Array Sort
-        Arrays.sort(a, Collections.reverseOrder());
-        System.out.println(Arrays.toString(a));
+//        Arrays.sort(a, Collections.reverseOrder());
+//        System.out.println(Arrays.toString(a));
     }
 
     private static void stringSortCollectionSort(){

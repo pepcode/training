@@ -15,17 +15,15 @@ public class ObjectSortExample {
         persons.add( new Person("Prajith", 9));
         persons.add( new Person("Kosal", 7));
 
-
         Collections.sort(persons);
 
         System.out.println(persons.toString());
-
 
     }
     
 }
 
-class Person implements Comparable {
+class Person implements Comparable<Person> {
 
     public String name;
     public int age;
@@ -40,8 +38,11 @@ class Person implements Comparable {
         return name + " : " + age;
     }
 
+
+    @Override
     public int compareTo(Person o) {
-        return Comparators.NAME.compare(this, o);
+        //return Comparators.NAME.compare(this, (Person)o);
+    	return Comparators.AGE.compare(this, o);
     }
 
     public static class Comparators {
@@ -73,6 +74,7 @@ class Person implements Comparable {
 
 
     }
+
 
 }
 
